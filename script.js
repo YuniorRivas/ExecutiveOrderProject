@@ -42,7 +42,7 @@
     "dateIssued": "March 1, 2025",
     "verdict": "No, he can't.",
     "explanation": "Explanation: Establishing an official language requires congressional action, and courts have upheld multilingual government services under civil rights laws.",
-    "constitutionalIssues": "Legal Issues: First Amendment (Free Speech), Equal Protection (14th Amendment)",
+    "constitutionalIssues": "Legal Issues: Free Speech (First Amendment), Equal Protection (14th Amendment)",
     "link": "https://www.federalregister.gov/executive-order/14224"
   },
   {
@@ -132,7 +132,7 @@
     "dateIssued": "February 14, 2025",
     "verdict": "No, he can't.",
     "explanation": "Explanation: The President can attach conditions to federal funding but cannot directly ban mandates at state or local levels.",
-    "constitutionalIssues": "Legal Issues: Spending Clause, 10th Amendment (State Rights)",
+    "constitutionalIssues": "Legal Issues: Spending Clause, States' Rights (10th Amendment )",
     "link": "https://www.federalregister.gov/executive-order/14214"
   },
   {
@@ -348,7 +348,7 @@
     "dateIssued": "January 29, 2025",
     "verdict": "No, he can't.",
     "explanation": "Explanation: The President can set federal education grant priorities but cannot dictate state or local curricula without congressional approval.",
-    "constitutionalIssues": "Legal Issues: 10th Amendment (State Rights), Federalism",
+    "constitutionalIssues": "Legal Issues: States' Rights (10th Amendment), Federalism",
     "link": "https://www.federalregister.gov/executive-order/14190"
   },
   {
@@ -573,7 +573,7 @@
     "dateIssued": "January 20, 2025",
     "verdict": "Maybe, he can.",
     "explanation": "Explanation: The President can enhance border enforcement, but funding a border wall or altering asylum policies extensively requires congressional approval.",
-    "constitutionalIssues": "Legal Issues: Spending Clause, 10th Amendment (State Rights), Due Process (5th Amendment)",
+    "constitutionalIssues": "Legal Issues: Spending Clause, States' Rights (10th Amendment), Due Process (5th Amendment)",
     "link": "https://www.federalregister.gov/executive-order/14165"
   },
   {
@@ -582,7 +582,7 @@
     "dateIssued": "January 20, 2025",
     "verdict": "Yes, he can.",
     "explanation": "Explanation: The President can direct federal prosecutors to pursue the death penalty where allowed by law, but cannot override state laws or Supreme Court precedent.",
-    "constitutionalIssues": "Legal Issues: 8th Amendment (Cruel and Unusual Punishment), Separation of Powers",
+    "constitutionalIssues": "Legal Issues: Cruel and Unusual Punishment (8th Amendment), Separation of Powers",
     "link": "https://www.federalregister.gov/executive-order/14164"
   },
   {
@@ -609,7 +609,7 @@
     "dateIssued": "January 20, 2025",
     "verdict": "Maybe, he can.",
     "explanation": "Explanation: The President can set stricter vetting procedures for visas and entry, but blanket exclusions based on nationality or ideology may violate federal law, Supreme Court precedent, and international agreements.",
-    "constitutionalIssues": "Legal Issues: Equal Protection (14th Amendment), Establishment Clause (1st Amendment), Separation of Powers",
+    "constitutionalIssues": "Legal Issues: Equal Protection (14th Amendment), Establishment Clause (First Amendment), Separation of Powers",
     "link": "https://www.federalregister.gov/executive-order/14161"
   },
   {
@@ -618,7 +618,7 @@
     "dateIssued": "January 20, 2025",
     "verdict": "No, he can't.",
     "explanation": "Explanation: The 14th Amendment's Citizenship Clause guarantees birthright citizenship to 'all persons born in the United States and subject to its jurisdiction.' Any changes would require a constitutional amendment.",
-    "constitutionalIssues": "Legal Issues: 14th Amendment (Citizenship Clause), Separation of Powers",
+    "constitutionalIssues": "Legal Issues: Citizenship Clause (14th Amendment), Separation of Powers",
     "link": "https://www.federalregister.gov/executive-order/14160"
   },
 
@@ -628,7 +628,7 @@
     "dateIssued": "January 20, 2025",
     "verdict": "Maybe, he can.",
     "explanation": "Explanation: The President has broad authority over immigration enforcement, but restricting asylum access, expanding deportation priorities, and penalizing sanctuary cities could face legal challenges under federal law and constitutional protections.",
-    "constitutionalIssues": "Legal Issues: Due Process (5th Amendment), 10th Amendment (State Rights), Separation of Powers",
+    "constitutionalIssues": "Legal Issues: Due Process (5th Amendment), States' Rights (10th Amendment), Separation of Powers",
     "link": "https://www.federalregister.gov/executive-order/14159"
   },
   {
@@ -718,7 +718,7 @@
       "dateIssued": "January 20, 2025",
       "verdict": "Maybe, he can.",
       "explanation": "Explanation: The President can direct federal agencies to refrain from speech moderation efforts, but the extent to which the government can restrict private companies from moderating content remains legally contested. Courts have struck down prior efforts to limit platforms’ ability to moderate speech.",
-      "constitutionalIssues": "Legal Issues: First Amendment (Free Speech), Separation of Powers",
+      "constitutionalIssues": "Legal Issues: Free Speech (First Amendment), Separation of Powers",
       "link": "https://www.federalregister.gov/executive-order/14149"
     },
     {
