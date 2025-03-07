@@ -8,7 +8,8 @@
 /* General Styling */
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #e5e5e2; /* Off-white background */
+  background-color: #fff; /* Off-white background */
+  background: url('texture.png') repeat;
   color: #333;
   text-align: center;
 }
@@ -20,7 +21,7 @@ header {
   justify-content: space-between;
   background: #1b2c3f;  /* White header */
   color: #333;
-  padding: 20px 0px 0px 0px;
+  padding: 10px 0px 0px 0px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   position: relative;
 }
@@ -126,7 +127,8 @@ input, select {
   height: 100%;
   backface-visibility: hidden;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #666;
+  box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.5);
   background: #fff; /* White card background */
   color: #333;
   display: flex;
@@ -137,6 +139,8 @@ input, select {
 
 .card-back {
   transform: rotateY(180deg);
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 /* Inner Content Wrapper */
@@ -188,7 +192,6 @@ input, select {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   box-sizing: border-box;
 }
 
@@ -201,7 +204,6 @@ input, select {
   text-align: center;
   padding: 5px;
 }
-
 /* Red circle on the top-right corner of each card */
 .red-circle {
   position: absolute;
@@ -249,7 +251,7 @@ input, select {
   display: inline-block;
   padding: 8px 14px;
   border-radius: 5px;
-  font-size: 1.3em;
+  font-size: 1.5rem;
   margin-bottom: 10px;
   color: #fff;
 }
@@ -264,13 +266,60 @@ input, select {
 }
 
 .verdict-maybe {
-  background-color: gold;  /* Yellow/orange accent */
+  background-color: goldenrod;  /* Yellow/orange accent */
 }
 
-.explanation {
-  font-size: 1em;
-  color: #333;
+.explanation-section {
+  background-color: #fff;
+  color: #000;
+}
+
+.verdict-section, 
+.constitutional-section {
+  color: #fff;
+}
+
+.constitutionalIssues {
+  margin: 10px 10px; /* 10px top/bottom, 15px left/right */
+  font-size: 1rem;
+}
+
+footer {
+  background: #1b2c3f; /* Use a dark color to complement the page design */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-band {
+  padding: 10px 0;
   margin-bottom: 10px;
+}
+
+.footer-band p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0 0 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.footer-links a:hover {
+  color: #d1d1d1;
 }
 
 /* Overlay container */
@@ -280,7 +329,7 @@ input, select {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: #111;
+  background: #1b2c3f;
   z-index: 9999;
   display: flex;
   align-items: center;
@@ -395,4 +444,74 @@ input, select {
 /* Apply shake to overlay (or to each fighter-container if preferred) */
 #animation-overlay.impact {
   animation: shake 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px 20px;
+  }
+  
+  header h1 {
+    font-size: 2.8em;
+  }
+  
+  header p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile: 1 column */
+@media screen and (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr;
+    padding: 20px 10px;
+  }
+  
+  header {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  
+  .header-left, .header-right {
+    display: none; /* Hide logos if needed for space */
+  }
+  
+  .header-center {
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  input, select {
+    width: 90%;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+  }
+  
+  header p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  footer {
+    padding: 15px 10px;
+    text-align: center;
+  }
+  .footer-band {
+    padding: 10px 5px;
+    font-size: 1rem;
+    /* Optionally, center text and stack links vertically */
+    text-align: center;
+  }
+  .footer-links {
+    display: block;
+    margin: 10px 0 0 0;
+  }
+  .footer-links li {
+    display: block;
+    margin: 5px 0;
+  }
 }
