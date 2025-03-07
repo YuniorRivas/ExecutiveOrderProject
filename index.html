@@ -12,7 +12,21 @@
 
 <body>
 
-<div id="animation-overlay">
+
+
+<header>
+  <div class="header-left">
+    <img src="left-image.png" alt="Left side logo">
+  </div>
+  <div class="header-center">
+    <h1>Can He Do That?</h1>
+    <p>Since taking office in January 2025, the President has signed a series of executive orders that could impact nationwide policy and individual rights. Some orders appear to be within the President's authority, while others face significant legal challenges. Explore these executive orders and their likely standing based on current legal expert consensus.</p>
+  <input type="text" id="searchBar" placeholder="Search executive orders..." oninput="searchOrders()">
+  </div>
+  <div class="header-right">
+    <img src="right-image.png" alt="Right side logo">
+  </div>
+  <div id="animation-overlay">
   <div class="fighters">
     <div class="fighter-container">
       <img id="fighter1" src="left-image.png" alt="Fighter 1">
@@ -23,22 +37,20 @@
   </div>
   <div id="explosion"></div>
 </div>
-
-  <!-- Header -->
-
-<header>
-  <div class="header-left">
-    <img src="left-image.png" alt="Left side logo">
-  </div>
-  <div class="header-center">
-    <h1>Can He Do That?</h1>
-    <p>Since taking office in January 2025, President Trump has signed a series of executive orders that could impact government policy and individual rights. Some orders appear to be within the President's authority, while others face significant concerns and challenges. Explore these executive orders and their likely legal standing based on current constitutional consensus.</p>
-  <input type="text" id="searchBar" placeholder="Search executive orders..." oninput="searchOrders()">
-  </div>
-  <div class="header-right">
-    <img src="right-image.png" alt="Right side logo">
-  </div>
 </header>
+
+  <div id="google_translate_element"></div>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,es',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
 <div class="instructions">
   <p>
     Click on a card to see it's likely standing, legal analysis, and constitutional issues it invokes.
@@ -51,7 +63,15 @@
     <!-- Executive Order Cards Will Be Inserted Here Dynamically -->
   </div>
 <footer>
-    <p>© 2025 Yunior Rivas</p>
+  <div class="footer-band">
+    <p>Learn more about executive orders and presidential powers:</p>
+    <ul class="footer-links">
+      <li><a href="https://constitutioncenter.org/" target="_blank">National Constitution Center</a></li>
+      <li><a href="https://www.law.cornell.edu/" target="_blank">Legal Information Institute</a></li>
+      <li><a href="https://www.aclu.org/" target="_blank">American Civil Liberties Union</a></li>
+    </ul>
+  </div>
+  <p>© 2025 Yunior Rivas</p>
 </footer>
   <script src="script.js"></script>
 </body>
