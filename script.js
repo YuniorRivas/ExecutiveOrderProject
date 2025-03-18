@@ -1,6 +1,69 @@
 // Sample data array for the cards
   const cardData = [
   {
+    "actionName": "Restore Public Service Loan Forgiveness with New Restrictions",
+    "executiveOrder": "Executive Order 14235",
+    "dateIssued": "March 7, 2025",
+    "verdict": "Maybe, he can.",
+    "explanation": "Explanation: The President can direct agency rule changes but cannot unilaterally alter statutory loan forgiveness terms without congressional approval.",
+    "constitutionalIssues": "Constitutional Issues: Spending Clause, Separation of Powers",
+    "link": "https://www.federalregister.gov/executive-order/14235"
+  },
+  {
+    "actionName": "Create White House Task Force on FIFA World Cup 2026",
+    "executiveOrder": "Executive Order 14234",
+    "dateIssued": "March 7, 2025",
+    "verdict": "Yes, he can.",
+    "explanation": "Explanation: The President can create task forces to coordinate federal efforts for major international events.",
+    "constitutionalIssues": "Constitutional Issues: Executive Authority",
+    "link": "https://www.federalregister.gov/executive-order/14234"
+  },
+  {
+    "actionName": "Establish Bitcoin Reserve",
+    "executiveOrder": "Executive Order 14233",
+    "dateIssued": "March 6, 2025",
+    "verdict": "Maybe, he can.",
+    "explanation": "Explanation: The President can direct the Treasury to manage digital assets but requires congressional approval to create a permanent national Bitcoin reserve.",
+    "constitutionalIssues": "Legal Issues: Spending Clause, Executive Authority in Financial Regulation",
+    "link": "https://www.federalregister.gov/executive-order/14233"
+  },
+  {
+    "actionName": "Modify Tariffs on Southern Border Imports to Address Drug Flow",
+    "executiveOrder": "Executive Order 14232",
+    "dateIssued": "March 6, 2025",
+    "verdict": "Yes, he can.",
+    "explanation": "Explanation: The President can adjust tariffs under trade and national security laws to target illicit drug supply chains.",
+    "constitutionalIssues": "Legal Issues: Commerce Clause, Executive Authority in Trade",
+    "link": "https://www.federalregister.gov/executive-order/14232"
+  },
+  {
+    "actionName": "Modify Tariffs on Northern Border Imports to Address Drug Flow",
+    "executiveOrder": "Executive Order 14231",
+    "dateIssued": "March 6, 2025",
+    "verdict": "Yes, he can.",
+    "explanation": "Explanation: The President can amend tariffs under trade laws to address illicit drug flows and national security concerns.",
+    "constitutionalIssues": "Legal Issues: Commerce Clause, Executive Authority in Trade",
+    "link": "https://www.federalregister.gov/executive-order/14231"
+  },
+  {
+    "actionName": "Restrict Federal Contracts and Security Clearances for Perkins Coie LLP",
+    "executiveOrder": "Executive Order 14230",
+    "dateIssued": "March 6, 2025",
+    "verdict": "Maybe, he can.",
+    "explanation": "Explanation: The President can review federal contracts but cannot outright blacklist firms without due process.",
+    "constitutionalIssues": "Legal Issues: Due Process (5th Amendment), Separation of Powers",
+    "link": "https://www.federalregister.gov/executive-order/14230"
+  },
+  {
+    "actionName": "Rename National Wildlife Refuge",
+    "executiveOrder": "Executive Order 14229",
+    "dateIssued": "March 4, 2025",
+    "verdict": "Yes, he can.",
+    "explanation": "Explanation: The President can rename federal properties through the Department of the Interior within existing laws.",
+    "constitutionalIssues": "Legal Issues: Executive Authority, Property Clause",
+    "link": "https://www.federalregister.gov/executive-order/14229"
+  },
+  {
     "actionName": "Increase Tariffs on Chinese Goods Over Synthetic Opioids",
     "executiveOrder": "Executive Order 14228",
     "dateIssued": "March 3, 2025",
